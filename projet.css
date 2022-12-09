@@ -1,0 +1,197 @@
+img.ofp{
+    height: 80px;
+    width: 150px;
+    position: relative;
+    left: 2px;
+    animation: rotation 8s  linear;
+}
+@keyframes rotation {
+from {
+transform: rotate(0deg);
+}
+to {
+transform: rotate(359deg);
+}
+}
+div.head  {
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+   height: 60px;
+    display: flex;
+    justify-content:space-evenly;
+    background-color: rgba(0, 0, 0, 0.81);
+    color: aliceblue;
+    padding: -1px;
+    position: relative;
+    top: 10px;
+}
+.head:hover h3 a{
+    cursor: pointer;
+   
+    border-radius: 4px;
+    color: orange;
+   
+}
+section{
+    position: relative;
+    left: 2px;
+}
+section img{
+    width: 850px;
+    height: 300px;
+    position: relative;
+    left: 2px;
+    top: 40px;
+
+}
+section p.s { 
+ position: relative;
+    top: 14px;
+    left: 2px;
+   width: 850px;
+   font-style: normal;
+   
+}
+@keyframes ani{
+from{
+letter-spacing: 35px;
+filter: blur(5px);
+opacity: 0;
+}to{
+letter-spacing: 0;
+filter: blur(0);
+opacity: 1px;
+}
+}
+section p.d{
+    font-size: 23px;
+    position: relative;
+    top: 20px;
+    left: 2px;
+    text-transform: capitalize;
+    font-style: oblique;
+    animation: ani 1s;
+   
+}
+article .item{
+position: relative;
+left: 900px;
+top: -532px;
+
+}
+article .item h2{
+font-size: xx-large;
+text-transform: capitalize;
+text-transform:capitalize;
+position: relative;
+top: 18px;
+animation: ani 1s;
+
+}
+article .item ul{
+width: 550px;
+background-color: gray;
+height: 150px;
+
+}
+article .item ul li{
+line-height: 2;
+text-align: justify;
+position: relative;
+left: -23px;
+
+}
+article .item ul:hover{
+cursor: pointer;
+background-color: orange;
+}
+article .item1{
+position: relative;
+left: 900px;
+top: -536px;
+
+}
+article .item1 h2{
+font-size: xx-large;
+text-transform: capitalize;
+text-transform:capitalize;
+position: relative;
+top: 18px;
+animation: ani 1s;
+
+}
+article .item1 ul{
+width: 550px;
+background-color: gray;
+height: 150px;
+
+}
+article .item1 ul:hover{
+cursor: pointer;
+background-color: orange;
+}
+article .item1 ul li{
+line-height: 2;
+text-align: justify;
+position: relative;
+left: -23px;
+
+}
+hr{
+position: relative;
+top: -430px;
+color: gray;
+}
+section div.dev{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 450px;
+}
+img#dev{
+    width: 450px;
+    height: 200px;
+    opacity: 0.5;
+}
+img#dev:hover{
+    
+    opacity: 1.5;
+}
+.intro{
+    position: relative;
+    top: 30px;  
+}
+.intro h3{
+    
+    margin: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    text-shadow: 5px 5px 5px orange;
+    
+}
+
+.intro button{
+    border-radius: 10px;
+    position: relative;
+    left: 400px;
+    background-color: rgba(128, 128, 128, 0.992);
+}
+.intro button:hover{
+    position: relative;
+    left: 400px;
+    background-color: orange;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 350px;
+    background-color: gainsboro;
+}
+@media screen and (max-width:992px) {
+    body{
+        width: 50%;
+
+    }
+}
